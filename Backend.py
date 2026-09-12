@@ -1,4 +1,8 @@
+# s ↓
+
 import random
+# version: 0.1.0, emblem: s
+# version: 0.1.5, emblem: d
 
 
 def randomArray():
@@ -58,3 +62,20 @@ class KamenNojnicciBymaga:
 
             if player in ["quit", "2"]:
                 runner = False
+            # d ↓
+            if player not in choises:
+                print("Такого Нет !")
+            # ↑
+
+
+# s ↑
+
+# d ↓
+def calc(*args):
+    result = []
+
+    for expression in args:
+        result.append(compile(expression))
+
+    print(result)
+# ↑
