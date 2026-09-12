@@ -1,9 +1,14 @@
-from trenirovka import randomArray as rrA
-from trenirovka import console
-from trenirovka import KamenNojnicciBymaga as knb
+from Backend import randomArray as rrA
+from Backend import console
+from Backend import KamenNojnicciBymaga as knb
+import Backend as bk
+import kivyTest as kv
 
-rrA()
-g = "Hello"
-console.log(f"Hw {g}")
+# start kivy "grid" module
+kv.start("gg")
 
-knb.game()
+# rrA()
+#g = "Hello"
+#console.log(f"Hw {g}", "Вллала")
+#knb.game()
+#bk.calc(2+3*2)
